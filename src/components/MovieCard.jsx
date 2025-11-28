@@ -8,7 +8,7 @@ function MovieCard({ movie: { title, poster_path, vote_average, release_date, or
                 <h3>{title}</h3>
                 <div className="content">
                     <div className="rating">
-                        <img src="/star.svg" alt="star" />
+                        <img src="star.svg" alt="star" />
                         <p>{vote_average ? vote_average.toFixed(1) : 'N/A'}</p>
                     </div>
                     <span>•</span>
